@@ -1,5 +1,6 @@
 SELECT * FROM walmart.sales_data;
 
+```sql
 CREATE TABLE `sales_data` (
   `Invoice ID` varchar (30) not null primary key,
   `Branch` varchar (5) not null,
@@ -253,3 +254,4 @@ from sales_data
 group by day_name,branch
 order by branch asc,Rating desc;
 
+```
